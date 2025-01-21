@@ -1,0 +1,59 @@
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E4E3D3;
+  }
+  .App-header {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ .ul {
+    color: white;
+    list-style: none;
+    font-size: medium;
+    display: flex;
+    margin-left: auto;
+    gap: 1rem;
+    padding-right: 5rem;
+ }
+ .App-header nav ul li a {
+    display: flex;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    
+  }
+  .App-header nav ul li a :hover{
+    opacity: 1rem;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+  }
+  main {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex: wrap;
+    
+  }
+  
+  
+  
